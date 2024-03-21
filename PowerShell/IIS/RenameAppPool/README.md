@@ -5,8 +5,8 @@ For issuing this problem i created script on PowerShell.
 
 I thing that this procedure correctly renames AppPool Original to AppPool New in IIS:
 1. Checking existing AppPool Original and AppPool New.
-1.1 AppPool Original must exist.
-1.2 AppPool New must not exist.
+  - AppPool Original must exist.
+  - AppPool New must not exist.
 2. Making a list of Apps that are associated with AppPool Original, if any there are.
 3. Remember status of AppPool Original.
 4. Exporting AppPool Original as xml to a temporary file.
